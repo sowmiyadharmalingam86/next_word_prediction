@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Large/runtime artifacts
+artifacts/
+tokenizer_cache/
+.python-version
