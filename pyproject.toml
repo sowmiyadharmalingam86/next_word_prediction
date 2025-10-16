@@ -1,0 +1,24 @@
+[project]
+name = "next-word-prediction"
+version = "0.1.0"
+description = "LSTM + attention based next-word prediction trained on The Adventures of Sherlock Holmes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "tensorflow>=2.13",
+    "scikit-learn>=1.4",
+    "requests>=2.31",
+    "tqdm>=4.66",
+    "sentencepiece>=0.1.99",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.8",
+]
+
+[tool.uv]
+package = true
