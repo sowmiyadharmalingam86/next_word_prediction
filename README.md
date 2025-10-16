@@ -159,6 +159,7 @@ Artifacts
 - `final_model.keras`, `checkpoint.keras`: trained model weights.
 - `tokenizer.json`: Keras tokenizer configuration.
 - `metrics.json`, `history.json`, `model_config.json`: training summary data for reports.
+- External artifacts archive: [Artifacts](https://drive.google.com/drive/folders/1a9LV9ERpbUWix_cEQnlELNs5UTmATSje?usp=sharing) – exported checkpoints, tokenizer JSON, generated samples, and presentation assets for submission.
 
 Reporting
 ---------
