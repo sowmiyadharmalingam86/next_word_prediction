@@ -13,3 +13,4 @@ wheels/
 artifacts/
 tokenizer_cache/
 .python-version
+Notebook/Notebook_artifacts_*/
