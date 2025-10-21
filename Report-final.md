@@ -233,7 +233,7 @@ All configurations hit a validation accuracy ceiling near 0.17 ± 0.02.
 
 - **Code** – `src/next_word_prediction/` (data, model, train CLI, generation utilities) and notebooks under `Notebook/`.
 - **Artifacts** – `artifacts/run*/` containing checkpoints, metrics, histories, tokenizer models, and generation logs.
-- **Reports** – `Report.md`, `Report-new.md`, `Notebook/Experiment_Report.md`, and this `Report-final.md`.
+- **Reports** – `Report-final.md`.
 - **Usage Docs** – Root `README.md` for setup/training; `Notebook/README.md` for notebook instructions.
 
 While the project delivers a complete training and inference pipeline with thorough experimentation logs, the accuracy gaps explain why the final model does not hit the 75 % test accuracy requirement despite meeting perplexity and logging criteria.
